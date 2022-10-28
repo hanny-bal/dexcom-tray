@@ -24,7 +24,7 @@ dexcom = Dexcom("username/email", "password", ous = True)
 
 # read and display the blood sugar value and trend arrow
 bg = dexcom.get_current_glucose_reading()
-print(f'{bg.value} {bg.trend_arrow} | dropdown = False \n---\n empty')
+print(f'{bg.value} {bg.trend_arrow}')
 ```
 
 Make sure to enter the correct username and password of your default Dexcom user (not the follower). When the file is saved, the output should immediately appear in the top tray bar.
