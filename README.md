@@ -5,7 +5,7 @@ Do you have a Dexcom (G4, G5 or G6) CGM System and want to display your current 
     <img src="./screenshots/dexcom_tray_example.png">
 </p>
 
-With the help of the [Argos plugin](https://github.com/p-e-w/argos) for Gnome, the setup is surprisingly easy. Argos is a Gnome extension that turns the standard output of executables into tray icons with a dropdown menu. An equivalent for Mac would be [xbar](https://github.com/matryer/xbar) which should analogously for the given use-case.
+With the help of the [Argos plugin](https://github.com/p-e-w/argos) for Gnome, the setup is surprisingly easy. Argos is a Gnome extension that turns the standard output of executables into tray icons with a dropdown menu. An equivalent for Mac would be [xbar](https://github.com/matryer/xbar) which should work analogously for the given use-case.
 
 ## Setup
 To set up the tray icon, simply install [Argos for Gnome](https://extensions.gnome.org/extension/1176/argos/) and navigate to `~/.config/argos`.
